@@ -18,7 +18,7 @@ pipeline{
          }
          POST{
              always{
-                 junit 'gameoflife-web\target\surefire-reports\*.xml'
+                 junit 'gameoflife-web/target/surefire-reports/*.xml'
              }
          }
      }
