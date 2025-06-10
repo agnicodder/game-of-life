@@ -16,7 +16,7 @@ pipeline{
          steps{
              sh 'mvn test'
          }
-         POST{
+         post{
              always{
                  junit 'gameoflife-web/target/surefire-reports/*.xml'
              }
